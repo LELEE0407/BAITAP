@@ -1,0 +1,32 @@
+.long-textbox {
+    width: 600px;
+    height: 35px;
+    text-align: center;
+    text-decoration-color: aquamarine;
+    border: 2px solid #4CAF50;
+    margin: 20px;
+    margin-left: 0;
+}
+
+b {
+    background-color: azure;
+    color: red;
+}
+
+.demo-class {
+    background-color: white;
+    color: black;
+    border-left: 3px solid green;
+    margin-left: 1%;
+}
+
+.spec-demo {
+    background-color: rgb(169, 182, 194);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}

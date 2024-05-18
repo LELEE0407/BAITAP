@@ -1,0 +1,14 @@
+h2 {
+    color: blue;
+}
+
+div {
+    font-family: Arial;
+}
+
+.last-class {
+    font-style: oblique;
+    background-color: antiquewhite;
+    color: black;
+    line-height: 40px;
+}
