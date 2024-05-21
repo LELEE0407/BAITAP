@@ -1,0 +1,40 @@
+.modal-container {
+    width: 700;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.modal-container .modal-title {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.modal-container h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.modal-container p {
+    text-align: center;
+}
+
+.modal-container button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.modal-container .modal-footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 10px;
+    color: #7d7d7d;
+}

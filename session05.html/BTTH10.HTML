@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style10.css">
+</head>
+
+<body>
+    <div class="modal-container">
+        <h1 class="title">Billing address</h1>
+        <form action="https://www.google.com/" method="post">
+            <div><label for="first name" id="first name">First name</label>
+                <input type="text" />
+                <label for="last name" id="last name">Last name</label>
+                <input type="text" />
+            </div>
+            <div>
+                <label for="username"> Username</label><br>
+                <input type="text" id="username" placeholder=" @ Username">
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email (optional)" id="email (optional)" placeholder="you@example.cxom">
+            </div>
+            <div>
+                <label for="address">Address</label><br>
+                <input type="text" id="address" placeholder="1234 Main St">
+            </div>
+            <div>
+                <label for="address 2 (Optional)">Address 2 (Optional)</label><br>
+                <input type="text" id="address 2 (Optional)" placeholder="Apartment or Suite">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="choose">Choose</option checked>
+                    <option value="VN">VN</option>
+                    <option value="USA">USA</option>
+                    <option value="THAI">THAI</option>
+                    <option value="UK">UK</option>
+                    <label for="state">State</label><br>
+                </select>
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="choose">Choose</option checked>
+                    <option value="califonia">Califonia</option>
+                    <option value="texas">Texas</option>
+                    <option value="florida">Florida</option>
+                    <option value="new york">New York</option>
+                </select>
+                <label for="zip">Zip</label>
+                <input type="text">
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" id="shipping">
+                <label for="shipping">Shipping address is the same as my billing address</label><br>
+                <input type="checkbox" id="save">
+                <label for="save">Save this information fpr next time</label>
+            </div>
+            <hr>
+            <h2>Payment</h2>
+            <div>
+                <input type="radio" id="credit" checked>
+                <label for="credit">Credit card</label><br>
+                <input type="radio" id="debit">
+                <label for="debit">Debit card</label><br>
+                <input type="radio" id="paypal">
+                <label for="paypal">Paypal</label>
+            </div>
+            <div class="demo-div">
+                <label for="name card">Name on card</label>
+                <input type="text" id="name card" min="0" max="50">
+                <label for="card number">Credit card number</label>
+                <input type="text" id="card number" min="0" max="50">
+                <p>Full name as displayed on card</p>
+            </div>
+            <div>
+                <label for="expiration">Expiration</label>
+                <input type="text" id="expiration">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv">
+            </div>
+            <hr>
+            <button class="button-footer">Countinue to checkout</button>
+        </form>
+    </div>
+</body>
+
+</html>
